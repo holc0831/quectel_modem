@@ -21,12 +21,12 @@ echo -ne 'AT+QENG="servingcell"\r\n' | busybox microcom -t 1000 /dev/ttyUSB2
 
 ## Installing programe on RasPi 
 
->wget https://raw.githubusercontent.com/sixfab/Sixfab_RPi_3G-4G-LTE_Base_Shield/master/tutorials/QMI_tutorial/qmi_install.sh
->sudo chmod +x qmi_install.sh
->sudo ./qmi_install.sh
->cd files/quectel-CM
->sudo ./quectel-CM -s internet
->ping -I wwan0 -c 5 1.1.1.1
+>  *)wget https://raw.githubusercontent.com/sixfab/Sixfab_RPi_3G-4G-LTE_Base_Shield/master/tutorials/QMI_tutorial/qmi_install.sh
+>  *)sudo chmod +x qmi_install.sh
+>  *)sudo ./qmi_install.sh
+>  *)cd files/quectel-CM
+>  *)sudo ./quectel-CM -s internet
+>  *)ping -I wwan0 -c 5 1.1.1.1
 
 ## Installing autoconnect on RasPi 
 
