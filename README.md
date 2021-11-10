@@ -26,7 +26,7 @@ echo -ne 'AT+QENG="servingcell"\r\n' | busybox microcom -t 1000 /dev/ttyUSB2
 >  *)sudo ./qmi_install.sh
 >  *)cd files/quectel-CM
 >  *)sudo ./quectel-CM -s internet
->  *)ping -I wwan0 -c 5 1.1.1.1
+  *)ping -I wwan0 -c 5 1.1.1.1
 
 ## Installing autoconnect on RasPi 
 
