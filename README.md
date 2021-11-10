@@ -16,3 +16,7 @@ https://di-marco.net/blog/it/2020-08-01-qmi_interface_with_lte_base_hat/
 &
 ping -I wwan0 1.1.1.1
 echo -ne 'AT+QENG="servingcell"\r\n' | busybox microcom -t 1000 /dev/ttyUSB2
+
+
+
+## Installing programe on RasPi  
